@@ -1,0 +1,2671 @@
+{
+  "funcao": "miniloja.calculo.calcular_total",
+  "comparacao": "igualdade exata (==), sem tolerância",
+  "casos": [
+    {
+      "id": "C1_camisa_e_bola|sem_cupom|PE",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 150.05,
+      "saida_obtida": 150.05,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|sem_cupom|SP",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 160.39,
+      "saida_obtida": 160.39,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|sem_cupom|RJ",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 160.59,
+      "saida_obtida": 160.59,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|sem_cupom|AM",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 172.69,
+      "saida_obtida": 172.69,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|PROMO10|PE",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 136.4,
+      "saida_obtida": 136.4,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|PROMO10|SP",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 146.48,
+      "saida_obtida": 146.48,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|PROMO10|RJ",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 146.81,
+      "saida_obtida": 146.81,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|PROMO10|AM",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 158.65,
+      "saida_obtida": 158.65,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|VIP15|PE",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 129.57,
+      "saida_obtida": 129.57,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|VIP15|SP",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 139.53,
+      "saida_obtida": 139.53,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|VIP15|RJ",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 139.92,
+      "saida_obtida": 139.92,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|VIP15|AM",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 151.63,
+      "saida_obtida": 151.63,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|FRETEGRATIS|PE",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 136.5,
+      "saida_obtida": 136.5,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|FRETEGRATIS|SP",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 139.1,
+      "saida_obtida": 139.1,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|FRETEGRATIS|RJ",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 137.8,
+      "saida_obtida": 137.8,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|FRETEGRATIS|AM",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 140.4,
+      "saida_obtida": 140.4,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|NATAL_flag_on|PE",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": true,
+      "saida_golden": 122.75,
+      "saida_obtida": 122.75,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|NATAL_flag_on|SP",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": true,
+      "saida_golden": 132.57,
+      "saida_obtida": 132.57,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|NATAL_flag_on|RJ",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": true,
+      "saida_golden": 133.03,
+      "saida_obtida": 133.03,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|NATAL_flag_on|AM",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": true,
+      "saida_golden": 144.61,
+      "saida_obtida": 144.61,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|NATAL_flag_off|PE",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 150.05,
+      "saida_obtida": 150.05,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|NATAL_flag_off|SP",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 160.39,
+      "saida_obtida": 160.39,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|NATAL_flag_off|RJ",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 160.59,
+      "saida_obtida": 160.59,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|NATAL_flag_off|AM",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 172.69,
+      "saida_obtida": 172.69,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|INVALIDO|PE",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 150.05,
+      "saida_obtida": 150.05,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|INVALIDO|SP",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 160.39,
+      "saida_obtida": 160.39,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|INVALIDO|RJ",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 160.59,
+      "saida_obtida": 160.59,
+      "igual": true
+    },
+    {
+      "id": "C1_camisa_e_bola|INVALIDO|AM",
+      "itens": [
+        {
+          "sku": "CAMISA-M",
+          "preco": 80.0,
+          "qtd": 1
+        },
+        {
+          "sku": "BOLA-01",
+          "preco": 50.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 172.69,
+      "saida_obtida": 172.69,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|sem_cupom|PE",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 262.5,
+      "saida_obtida": 262.5,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|sem_cupom|SP",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 267.5,
+      "saida_obtida": 267.5,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|sem_cupom|RJ",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 265.0,
+      "saida_obtida": 265.0,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|sem_cupom|AM",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 270.0,
+      "saida_obtida": 270.0,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|PROMO10|PE",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 236.25,
+      "saida_obtida": 236.25,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|PROMO10|SP",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 240.75,
+      "saida_obtida": 240.75,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|PROMO10|RJ",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 238.5,
+      "saida_obtida": 238.5,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|PROMO10|AM",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 243.0,
+      "saida_obtida": 243.0,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|VIP15|PE",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 223.12,
+      "saida_obtida": 223.12,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|VIP15|SP",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 227.38,
+      "saida_obtida": 227.38,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|VIP15|RJ",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 225.25,
+      "saida_obtida": 225.25,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|VIP15|AM",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 229.5,
+      "saida_obtida": 229.5,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|FRETEGRATIS|PE",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 262.5,
+      "saida_obtida": 262.5,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|FRETEGRATIS|SP",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 267.5,
+      "saida_obtida": 267.5,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|FRETEGRATIS|RJ",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 265.0,
+      "saida_obtida": 265.0,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|FRETEGRATIS|AM",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 270.0,
+      "saida_obtida": 270.0,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|NATAL_flag_on|PE",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": true,
+      "saida_golden": 223.55,
+      "saida_obtida": 223.55,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|NATAL_flag_on|SP",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": true,
+      "saida_golden": 235.29,
+      "saida_obtida": 235.29,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|NATAL_flag_on|RJ",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": true,
+      "saida_golden": 234.79,
+      "saida_obtida": 234.79,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|NATAL_flag_on|AM",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": true,
+      "saida_golden": 248.29,
+      "saida_obtida": 248.29,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|NATAL_flag_off|PE",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 262.5,
+      "saida_obtida": 262.5,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|NATAL_flag_off|SP",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 267.5,
+      "saida_obtida": 267.5,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|NATAL_flag_off|RJ",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 265.0,
+      "saida_obtida": 265.0,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|NATAL_flag_off|AM",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 270.0,
+      "saida_obtida": 270.0,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|INVALIDO|PE",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 262.5,
+      "saida_obtida": 262.5,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|INVALIDO|SP",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 267.5,
+      "saida_obtida": 267.5,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|INVALIDO|RJ",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 265.0,
+      "saida_obtida": 265.0,
+      "igual": true
+    },
+    {
+      "id": "C2_chuteira|INVALIDO|AM",
+      "itens": [
+        {
+          "sku": "CHUTEIRA-42",
+          "preco": 250.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 270.0,
+      "saida_obtida": 270.0,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|sem_cupom|PE",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": null,
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 76.51,
+      "saida_obtida": 76.51,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|sem_cupom|SP",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": null,
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 85.46,
+      "saida_obtida": 85.46,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|sem_cupom|RJ",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": null,
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 86.36,
+      "saida_obtida": 86.36,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|sem_cupom|AM",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": null,
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 97.06,
+      "saida_obtida": 97.06,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|PROMO10|PE",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 70.22,
+      "saida_obtida": 70.22,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|PROMO10|SP",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 79.04,
+      "saida_obtida": 79.04,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|PROMO10|RJ",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 80.0,
+      "saida_obtida": 80.0,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|PROMO10|AM",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 90.58,
+      "saida_obtida": 90.58,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|VIP15|PE",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 67.07,
+      "saida_obtida": 67.07,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|VIP15|SP",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 75.84,
+      "saida_obtida": 75.84,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|VIP15|RJ",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 76.82,
+      "saida_obtida": 76.82,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|VIP15|AM",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 87.34,
+      "saida_obtida": 87.34,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|FRETEGRATIS|PE",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 62.97,
+      "saida_obtida": 62.97,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|FRETEGRATIS|SP",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 64.17,
+      "saida_obtida": 64.17,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|FRETEGRATIS|RJ",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 63.57,
+      "saida_obtida": 63.57,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|FRETEGRATIS|AM",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 64.77,
+      "saida_obtida": 64.77,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|NATAL_flag_on|PE",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": true,
+      "saida_golden": 63.92,
+      "saida_obtida": 63.92,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|NATAL_flag_on|SP",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": true,
+      "saida_golden": 72.63,
+      "saida_obtida": 72.63,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|NATAL_flag_on|RJ",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": true,
+      "saida_golden": 73.64,
+      "saida_obtida": 73.64,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|NATAL_flag_on|AM",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": true,
+      "saida_golden": 84.11,
+      "saida_obtida": 84.11,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|NATAL_flag_off|PE",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 76.51,
+      "saida_obtida": 76.51,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|NATAL_flag_off|SP",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 85.46,
+      "saida_obtida": 85.46,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|NATAL_flag_off|RJ",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 86.36,
+      "saida_obtida": 86.36,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|NATAL_flag_off|AM",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 97.06,
+      "saida_obtida": 97.06,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|INVALIDO|PE",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 76.51,
+      "saida_obtida": 76.51,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|INVALIDO|SP",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 85.46,
+      "saida_obtida": 85.46,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|INVALIDO|RJ",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 86.36,
+      "saida_obtida": 86.36,
+      "igual": true
+    },
+    {
+      "id": "C3_varias_bolas|INVALIDO|AM",
+      "itens": [
+        {
+          "sku": "BOLA-01",
+          "preco": 19.99,
+          "qtd": 3
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 97.06,
+      "saida_obtida": 97.06,
+      "igual": true
+    },
+    {
+      "id": "vazio|sem_cupom|PE",
+      "itens": [],
+      "cupom": null,
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 13.54,
+      "saida_obtida": 13.54,
+      "igual": true
+    },
+    {
+      "id": "vazio|sem_cupom|SP",
+      "itens": [],
+      "cupom": null,
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 21.29,
+      "saida_obtida": 21.29,
+      "igual": true
+    },
+    {
+      "id": "vazio|sem_cupom|RJ",
+      "itens": [],
+      "cupom": null,
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 22.79,
+      "saida_obtida": 22.79,
+      "igual": true
+    },
+    {
+      "id": "vazio|sem_cupom|AM",
+      "itens": [],
+      "cupom": null,
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 32.29,
+      "saida_obtida": 32.29,
+      "igual": true
+    },
+    {
+      "id": "vazio|PROMO10|PE",
+      "itens": [],
+      "cupom": "PROMO10",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 13.54,
+      "saida_obtida": 13.54,
+      "igual": true
+    },
+    {
+      "id": "vazio|PROMO10|SP",
+      "itens": [],
+      "cupom": "PROMO10",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 21.29,
+      "saida_obtida": 21.29,
+      "igual": true
+    },
+    {
+      "id": "vazio|PROMO10|RJ",
+      "itens": [],
+      "cupom": "PROMO10",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 22.79,
+      "saida_obtida": 22.79,
+      "igual": true
+    },
+    {
+      "id": "vazio|PROMO10|AM",
+      "itens": [],
+      "cupom": "PROMO10",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 32.29,
+      "saida_obtida": 32.29,
+      "igual": true
+    },
+    {
+      "id": "vazio|VIP15|PE",
+      "itens": [],
+      "cupom": "VIP15",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 13.54,
+      "saida_obtida": 13.54,
+      "igual": true
+    },
+    {
+      "id": "vazio|VIP15|SP",
+      "itens": [],
+      "cupom": "VIP15",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 21.29,
+      "saida_obtida": 21.29,
+      "igual": true
+    },
+    {
+      "id": "vazio|VIP15|RJ",
+      "itens": [],
+      "cupom": "VIP15",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 22.79,
+      "saida_obtida": 22.79,
+      "igual": true
+    },
+    {
+      "id": "vazio|VIP15|AM",
+      "itens": [],
+      "cupom": "VIP15",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 32.29,
+      "saida_obtida": 32.29,
+      "igual": true
+    },
+    {
+      "id": "vazio|FRETEGRATIS|PE",
+      "itens": [],
+      "cupom": "FRETEGRATIS",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 0.0,
+      "saida_obtida": 0.0,
+      "igual": true
+    },
+    {
+      "id": "vazio|FRETEGRATIS|SP",
+      "itens": [],
+      "cupom": "FRETEGRATIS",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 0.0,
+      "saida_obtida": 0.0,
+      "igual": true
+    },
+    {
+      "id": "vazio|FRETEGRATIS|RJ",
+      "itens": [],
+      "cupom": "FRETEGRATIS",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 0.0,
+      "saida_obtida": 0.0,
+      "igual": true
+    },
+    {
+      "id": "vazio|FRETEGRATIS|AM",
+      "itens": [],
+      "cupom": "FRETEGRATIS",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 0.0,
+      "saida_obtida": 0.0,
+      "igual": true
+    },
+    {
+      "id": "vazio|NATAL_flag_on|PE",
+      "itens": [],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": true,
+      "saida_golden": 13.54,
+      "saida_obtida": 13.54,
+      "igual": true
+    },
+    {
+      "id": "vazio|NATAL_flag_on|SP",
+      "itens": [],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": true,
+      "saida_golden": 21.29,
+      "saida_obtida": 21.29,
+      "igual": true
+    },
+    {
+      "id": "vazio|NATAL_flag_on|RJ",
+      "itens": [],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": true,
+      "saida_golden": 22.79,
+      "saida_obtida": 22.79,
+      "igual": true
+    },
+    {
+      "id": "vazio|NATAL_flag_on|AM",
+      "itens": [],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": true,
+      "saida_golden": 32.29,
+      "saida_obtida": 32.29,
+      "igual": true
+    },
+    {
+      "id": "vazio|NATAL_flag_off|PE",
+      "itens": [],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 13.54,
+      "saida_obtida": 13.54,
+      "igual": true
+    },
+    {
+      "id": "vazio|NATAL_flag_off|SP",
+      "itens": [],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 21.29,
+      "saida_obtida": 21.29,
+      "igual": true
+    },
+    {
+      "id": "vazio|NATAL_flag_off|RJ",
+      "itens": [],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 22.79,
+      "saida_obtida": 22.79,
+      "igual": true
+    },
+    {
+      "id": "vazio|NATAL_flag_off|AM",
+      "itens": [],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 32.29,
+      "saida_obtida": 32.29,
+      "igual": true
+    },
+    {
+      "id": "vazio|INVALIDO|PE",
+      "itens": [],
+      "cupom": "INVALIDO",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 13.54,
+      "saida_obtida": 13.54,
+      "igual": true
+    },
+    {
+      "id": "vazio|INVALIDO|SP",
+      "itens": [],
+      "cupom": "INVALIDO",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 21.29,
+      "saida_obtida": 21.29,
+      "igual": true
+    },
+    {
+      "id": "vazio|INVALIDO|RJ",
+      "itens": [],
+      "cupom": "INVALIDO",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 22.79,
+      "saida_obtida": 22.79,
+      "igual": true
+    },
+    {
+      "id": "vazio|INVALIDO|AM",
+      "itens": [],
+      "cupom": "INVALIDO",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 32.29,
+      "saida_obtida": 32.29,
+      "igual": true
+    },
+    {
+      "id": "item_barato|sem_cupom|PE",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 24.04,
+      "saida_obtida": 24.04,
+      "igual": true
+    },
+    {
+      "id": "item_barato|sem_cupom|SP",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 31.99,
+      "saida_obtida": 31.99,
+      "igual": true
+    },
+    {
+      "id": "item_barato|sem_cupom|RJ",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 33.39,
+      "saida_obtida": 33.39,
+      "igual": true
+    },
+    {
+      "id": "item_barato|sem_cupom|AM",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 43.09,
+      "saida_obtida": 43.09,
+      "igual": true
+    },
+    {
+      "id": "item_barato|PROMO10|PE",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 22.99,
+      "saida_obtida": 22.99,
+      "igual": true
+    },
+    {
+      "id": "item_barato|PROMO10|SP",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 30.92,
+      "saida_obtida": 30.92,
+      "igual": true
+    },
+    {
+      "id": "item_barato|PROMO10|RJ",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 32.33,
+      "saida_obtida": 32.33,
+      "igual": true
+    },
+    {
+      "id": "item_barato|PROMO10|AM",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 42.01,
+      "saida_obtida": 42.01,
+      "igual": true
+    },
+    {
+      "id": "item_barato|VIP15|PE",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 22.47,
+      "saida_obtida": 22.47,
+      "igual": true
+    },
+    {
+      "id": "item_barato|VIP15|SP",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 30.39,
+      "saida_obtida": 30.39,
+      "igual": true
+    },
+    {
+      "id": "item_barato|VIP15|RJ",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 31.8,
+      "saida_obtida": 31.8,
+      "igual": true
+    },
+    {
+      "id": "item_barato|VIP15|AM",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 41.47,
+      "saida_obtida": 41.47,
+      "igual": true
+    },
+    {
+      "id": "item_barato|FRETEGRATIS|PE",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 10.5,
+      "saida_obtida": 10.5,
+      "igual": true
+    },
+    {
+      "id": "item_barato|FRETEGRATIS|SP",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 10.7,
+      "saida_obtida": 10.7,
+      "igual": true
+    },
+    {
+      "id": "item_barato|FRETEGRATIS|RJ",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 10.6,
+      "saida_obtida": 10.6,
+      "igual": true
+    },
+    {
+      "id": "item_barato|FRETEGRATIS|AM",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 10.8,
+      "saida_obtida": 10.8,
+      "igual": true
+    },
+    {
+      "id": "item_barato|NATAL_flag_on|PE",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": true,
+      "saida_golden": 21.95,
+      "saida_obtida": 21.95,
+      "igual": true
+    },
+    {
+      "id": "item_barato|NATAL_flag_on|SP",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": true,
+      "saida_golden": 29.85,
+      "saida_obtida": 29.85,
+      "igual": true
+    },
+    {
+      "id": "item_barato|NATAL_flag_on|RJ",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": true,
+      "saida_golden": 31.27,
+      "saida_obtida": 31.27,
+      "igual": true
+    },
+    {
+      "id": "item_barato|NATAL_flag_on|AM",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": true,
+      "saida_golden": 40.93,
+      "saida_obtida": 40.93,
+      "igual": true
+    },
+    {
+      "id": "item_barato|NATAL_flag_off|PE",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 24.04,
+      "saida_obtida": 24.04,
+      "igual": true
+    },
+    {
+      "id": "item_barato|NATAL_flag_off|SP",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 31.99,
+      "saida_obtida": 31.99,
+      "igual": true
+    },
+    {
+      "id": "item_barato|NATAL_flag_off|RJ",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 33.39,
+      "saida_obtida": 33.39,
+      "igual": true
+    },
+    {
+      "id": "item_barato|NATAL_flag_off|AM",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 43.09,
+      "saida_obtida": 43.09,
+      "igual": true
+    },
+    {
+      "id": "item_barato|INVALIDO|PE",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 24.04,
+      "saida_obtida": 24.04,
+      "igual": true
+    },
+    {
+      "id": "item_barato|INVALIDO|SP",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 31.99,
+      "saida_obtida": 31.99,
+      "igual": true
+    },
+    {
+      "id": "item_barato|INVALIDO|RJ",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 33.39,
+      "saida_obtida": 33.39,
+      "igual": true
+    },
+    {
+      "id": "item_barato|INVALIDO|AM",
+      "itens": [
+        {
+          "sku": "MEIA-01",
+          "preco": 10.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 43.09,
+      "saida_obtida": 43.09,
+      "igual": true
+    },
+    {
+      "id": "borda_200|sem_cupom|PE",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 223.55,
+      "saida_obtida": 223.55,
+      "igual": true
+    },
+    {
+      "id": "borda_200|sem_cupom|SP",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 235.29,
+      "saida_obtida": 235.29,
+      "igual": true
+    },
+    {
+      "id": "borda_200|sem_cupom|RJ",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 234.79,
+      "saida_obtida": 234.79,
+      "igual": true
+    },
+    {
+      "id": "borda_200|sem_cupom|AM",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": null,
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 248.29,
+      "saida_obtida": 248.29,
+      "igual": true
+    },
+    {
+      "id": "borda_200|PROMO10|PE",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 202.55,
+      "saida_obtida": 202.55,
+      "igual": true
+    },
+    {
+      "id": "borda_200|PROMO10|SP",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 213.89,
+      "saida_obtida": 213.89,
+      "igual": true
+    },
+    {
+      "id": "borda_200|PROMO10|RJ",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 213.59,
+      "saida_obtida": 213.59,
+      "igual": true
+    },
+    {
+      "id": "borda_200|PROMO10|AM",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "PROMO10",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 226.69,
+      "saida_obtida": 226.69,
+      "igual": true
+    },
+    {
+      "id": "borda_200|VIP15|PE",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 192.05,
+      "saida_obtida": 192.05,
+      "igual": true
+    },
+    {
+      "id": "borda_200|VIP15|SP",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 203.19,
+      "saida_obtida": 203.19,
+      "igual": true
+    },
+    {
+      "id": "borda_200|VIP15|RJ",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 202.99,
+      "saida_obtida": 202.99,
+      "igual": true
+    },
+    {
+      "id": "borda_200|VIP15|AM",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "VIP15",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 215.89,
+      "saida_obtida": 215.89,
+      "igual": true
+    },
+    {
+      "id": "borda_200|FRETEGRATIS|PE",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 210.0,
+      "saida_obtida": 210.0,
+      "igual": true
+    },
+    {
+      "id": "borda_200|FRETEGRATIS|SP",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 214.0,
+      "saida_obtida": 214.0,
+      "igual": true
+    },
+    {
+      "id": "borda_200|FRETEGRATIS|RJ",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 212.0,
+      "saida_obtida": 212.0,
+      "igual": true
+    },
+    {
+      "id": "borda_200|FRETEGRATIS|AM",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "FRETEGRATIS",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 216.0,
+      "saida_obtida": 216.0,
+      "igual": true
+    },
+    {
+      "id": "borda_200|NATAL_flag_on|PE",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": true,
+      "saida_golden": 181.55,
+      "saida_obtida": 181.55,
+      "igual": true
+    },
+    {
+      "id": "borda_200|NATAL_flag_on|SP",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": true,
+      "saida_golden": 192.49,
+      "saida_obtida": 192.49,
+      "igual": true
+    },
+    {
+      "id": "borda_200|NATAL_flag_on|RJ",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": true,
+      "saida_golden": 192.39,
+      "saida_obtida": 192.39,
+      "igual": true
+    },
+    {
+      "id": "borda_200|NATAL_flag_on|AM",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": true,
+      "saida_golden": 205.09,
+      "saida_obtida": 205.09,
+      "igual": true
+    },
+    {
+      "id": "borda_200|NATAL_flag_off|PE",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 223.55,
+      "saida_obtida": 223.55,
+      "igual": true
+    },
+    {
+      "id": "borda_200|NATAL_flag_off|SP",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 235.29,
+      "saida_obtida": 235.29,
+      "igual": true
+    },
+    {
+      "id": "borda_200|NATAL_flag_off|RJ",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 234.79,
+      "saida_obtida": 234.79,
+      "igual": true
+    },
+    {
+      "id": "borda_200|NATAL_flag_off|AM",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "NATAL",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 248.29,
+      "saida_obtida": 248.29,
+      "igual": true
+    },
+    {
+      "id": "borda_200|INVALIDO|PE",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "PE",
+      "flag_natal": false,
+      "saida_golden": 223.55,
+      "saida_obtida": 223.55,
+      "igual": true
+    },
+    {
+      "id": "borda_200|INVALIDO|SP",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "SP",
+      "flag_natal": false,
+      "saida_golden": 235.29,
+      "saida_obtida": 235.29,
+      "igual": true
+    },
+    {
+      "id": "borda_200|INVALIDO|RJ",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "RJ",
+      "flag_natal": false,
+      "saida_golden": 234.79,
+      "saida_obtida": 234.79,
+      "igual": true
+    },
+    {
+      "id": "borda_200|INVALIDO|AM",
+      "itens": [
+        {
+          "sku": "KIT-200",
+          "preco": 200.0,
+          "qtd": 1
+        }
+      ],
+      "cupom": "INVALIDO",
+      "uf": "AM",
+      "flag_natal": false,
+      "saida_golden": 248.29,
+      "saida_obtida": 248.29,
+      "igual": true
+    }
+  ],
+  "resumo": {
+    "total": 168,
+    "iguais": 168,
+    "diferentes": 0
+  }
+}
