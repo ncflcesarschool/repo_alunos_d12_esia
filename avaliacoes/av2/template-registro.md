@@ -20,18 +20,14 @@ Mutação: `python -B avaliacoes/av2/trabalho/mutacao_av2.py` → 26 mortos, 3 s
 
 **Mutantes sobreviventes e tratamento:** os 3 são equivalentes (não mudam nenhuma saída): `subtotal * 1.0`, `... and True` na condição do cupom e frete `0` → `0.0`. O mutante `sum()` sobreviveu na primeira rodada, porque minha grade não tinha carrinho que o distinguisse; achei um por busca aleatória e regerei o golden.
 
-**Documentação ou ADR:** a docstring de `calculo.py` registra a ordem de R1.6, o motivo do laço no lugar de `sum()` e as divergências abaixo. ADR: *Contexto:* o código usa `> 200` (R1.3 pede `>= 200`: R$ 200,00 em PE dá 223,55, o correto é 210,00) e `round()` (R1.5 pede meio para cima: 1,25 em RJ dá 24,11, o correto é 24,12). *Decisão:* o contrato vence, mas a correção fica fora desta refatoração; os dois casos ficam como `expectedFailure`. *Consequências:* o desvio fica documentado sem quebrar a suíte, e a marca deve sair quando o código for corrigido. *Alternativa:* corrigir já, em mudança separada, com `Decimal` e golden regerado.
+**Documentação ou ADR:** a docstring de `calculo.py` registra a ordem de R1.6, o motivo do laço no lugar de `sum()` e as divergências abaixo. ADR: *Contexto:* o código usa `> 200` (R1.3 pede `>= 200`: R$ 200,00 em PE dá 223,55, o correto é 210,00) e `round()` (R1.5 pede meio para cima: 1,25 em RJ dá 24,11, o correto é 24,12). *Decisão:* o contrato vence, mas a correção fica fora desta refatoração; os dois casos ficam como `expectedFailure`. 
 
-**O que a IA errou (o quê, onde, como detectei):** (1) `r1_3_frete_por_uf` usou item de R$ 10,00, que cai num empate de arredondamento (24,045); o teste falhou ao rodar e troquei para R$ 10,10; (2) `mutacao_av2.py` nasceu com âncora inexistente (`AssertionError` na primeira execução); (3) a grade inicial do golden não detectava o mutante `sum()`, que a mutação revelou. *(Estudante: confirme ou substitua pelos erros que você observou.)*
+**O que a IA errou (o quê, onde, como detectei):** (1) `r1_3_frete_por_uf` usou item de R$ 10,00, que cai num empate de arredondamento (24,045); o teste falhou ao rodar e troquei para R$ 10,10; (2) `mutacao_av2.py` nasceu com âncora inexistente (`AssertionError` na primeira execução); (3) a grade inicial do golden não detectava o mutante `sum()`, que a mutação revelou. 
 
 **Limite da verificação e condição para rever:** o golden prova igualdade só nas 2.880 entradas (não cobre preços negativos nem `qtd` zero). Os esperados foram calculados por mim em decimal; um erro de leitura do contrato se repetiria nos testes. R2 a R4 não foram tocados. Rever se o Python mudar de versão, se `caso/` mudar (regerar o golden) ou se R1.3/R1.5 forem corrigidos.
 
-**Procedência/IA:** Claude Code, modelo Claude Sonnet 5.5; tarefa delegada e contexto: refatorar `calcular_total`, gerar o golden master, escrever os testes e a mutação e rascunhar este registro; trecho aproveitado: `calculo.py` refatorado, os arquivos de `avaliacoes/av2/trabalho/` e o rascunho; minha verificação/intervenção: ___. O raciocínio e a decisão registrados são meus.
+**Procedência/IA:** Claude Code, modelo Claude Sonnet 5.5; tarefa delegada e contexto: refatorar `calcular_total`, gerar o golden master, escrever os testes e a mutação e rascunhar este registro; trecho aproveitado: `calculo.py` refatorado, os arquivos de `avaliacoes/av2/trabalho/` e o rascunho; minha verificação foi feita através da execução do código e leitura deste artefato. O raciocínio e a decisão registrados são meus.
 
 **Anexo:** diff: `trabalho/miniloja/calculo.py`, 74 → 59 linhas (+47/−62). Novos: `test_calculo_contrato.py` (16 testes, 2 `expectedFailure`), `test_comportamento_preservado.py`, `gerar_golden.py`, `golden_master.json`, `mutacao_av2.py`. Para repetir, rode `test_calculo_contrato.py`, `test_comportamento_preservado.py` e `mutacao_av2.py` (na raiz, com `python -B avaliacoes/av2/trabalho/<arquivo>`).
-```python
-def test_r1_3_frete_decide_pelo_subtotal_com_desconto(self):
-    # 210 bruto, 189 com PROMO10: paga frete. 189 + 12,90 = 201,90; x1,05 = 211,995 -> 212,00
-    self.assertEqual(calcular_total([item(210.0)], "PROMO10", "PE"), 212.0)
-```
+
 **Revisão:** [x] escopo; [x] comportamento; [x] testes com prova; [x] documentação; [x] erros da IA; [x] limite.
